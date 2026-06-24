@@ -8,7 +8,6 @@ A simple Amazon homepage clone built using HTML and CSS.
 - Hero section
 - Product cards
 - Footer
-- Hover effects
 
 ## Technologies Used
 - HTML5
