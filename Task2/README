@@ -1,0 +1,98 @@
+# Backend API using Node.js & Express
+
+A simple backend API built using Node.js and Express for the DecodeLabs Internship Task 2.
+
+## Features
+- GET API endpoint
+- POST API endpoint
+- Handles JSON requests
+- Basic input validation
+- Returns JSON responses
+
+## Technologies Used
+- Node.js
+- Express.js
+- Postman (API Testing)
+
+## Project Structure
+```
+Task2/
+│── server.js
+│── package.json
+│── package-lock.json
+│── .gitignore
+```
+
+## API Endpoints
+
+### GET /
+
+Returns a welcome message.
+
+**Response:**
+
+```
+Welcome to DecodeLabs Backend API
+```
+
+### POST /user
+
+Accepts a user's name and returns a greeting.
+
+**Request Body**
+
+```json
+{
+  "name": "Pooja"
+}
+```
+
+**Response**
+
+```json
+{
+  "message": "Hello Pooja"
+}
+```
+
+### Validation
+
+If no name is provided:
+
+```json
+{}
+```
+
+**Response**
+
+```json
+{
+  "message": "Name is required"
+}
+```
+
+## How to Run
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the server:
+
+```bash
+node server.js
+```
+
+3. Open your browser:
+
+```
+http://localhost:3000
+```
+
+Or use Postman to test the API.
+
+## Author
+
+**Pooja A P**
