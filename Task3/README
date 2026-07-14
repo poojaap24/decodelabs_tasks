@@ -1,0 +1,95 @@
+# Student Management API
+
+A simple Backend API built using Node.js, Express.js, and SQLite for the DecodeLabs Internship Task 3.
+
+## Features
+
+- Create a student
+- View all students
+- Update student details
+- Delete a student
+- SQLite database integration
+- REST API using Express.js
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- SQLite3
+- Postman
+
+## API Endpoints
+
+### GET /
+
+Returns a welcome message.
+
+### POST /students
+
+Adds a new student.
+
+Example Request:
+
+```json
+{
+  "name": "Pooja"
+}
+```
+
+### GET /students
+
+Displays all students.
+
+### PUT /students/:id
+
+Updates a student's name.
+
+Example Request:
+
+```json
+{
+  "name": "Pooja AP"
+}
+```
+
+### DELETE /students/:id
+
+Deletes a student using the student ID.
+
+## Project Structure
+
+```
+Task3
+│── server.js
+│── students.db
+│── package.json
+│── package-lock.json
+│── .gitignore
+└── README.md
+```
+
+## How to Run
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the server:
+
+```bash
+node server.js
+```
+
+3. Open in your browser:
+
+```
+http://localhost:3000
+```
+
+4. Test the API using Postman.
+
+## Author
+
+**Pooja A P**
