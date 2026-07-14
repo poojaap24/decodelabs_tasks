@@ -1,0 +1,30 @@
+body{
+    font-family:Arial;
+    margin:40px;
+    background:#f2f2f2;
+}
+
+h1{
+    color:#333;
+}
+
+input{
+    padding:10px;
+    width:250px;
+}
+
+button{
+    padding:10px 15px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkgreen;
+}
+
+li{
+    margin:10px 0;
+}
